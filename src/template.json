@@ -165,7 +165,7 @@
                 ],
                 "syntax": {
                     "attribute": {
-                        "color": "$subtle"
+                        "color": "$text"
                     },
                     "boolean": {
                         "color": "$rose"
@@ -178,76 +178,76 @@
                         "color": "$subtle"
                     },
                     "constant": {
-                        "color": "$text"
+                        "color": "$rose"
                     },
                     "constructor": {
-                        "color": "$love"
+                        "color": "$foam"
                     },
                     "embedded": {
                         "color": "$text"
                     },
                     "emphasis": {
-                        "color": "$iris",
+                        "color": "$text",
                         "font_style": "italic"
                     },
                     "emphasis.strong": {
-                        "color": "$foam",
+                        "color": "$text",
                         "font_weight": 700
                     },
                     "enum": {
-                        "color": "$pine"
-                    },
-                    "function": {
-                        "color": "$rose"
-                    },
-                    "hint": {
-                        "color": "$iris"
-                    },
-                    "keyword": {
-                        "color": "$pine"
-                    },
-                    "label": {
-                        "color": "$rose"
-                    },
-                    "link_text": {
-                        "color": "$iris"
-                    },
-                    "link_uri": {
-                        "color": "$pine"
-                    },
-                    "number": {
                         "color": "$foam"
                     },
+                    "function": {
+                        "color": "$foam"
+                    },
+                    "hint": {
+                        "color": "$text"
+                    },
+                    "keyword": {
+                        "color": "$text"
+                    },
+                    "label": {
+                        "color": "$text"
+                    },
+                    "link_text": {
+                        "color": "$text"
+                    },
+                    "link_uri": {
+                        "color": "$text"
+                    },
+                    "number": {
+                        "color": "$rose"
+                    },
                     "operator": {
-                        "color": "$subtle"
+                        "color": "$text"
                     },
                     "predictive": {
                         "color": "$subtle"
                     },
                     "preproc": {
-                        "color": "$gold"
+                        "color": "$text"
                     },
                     "primary": {
-                        "color": "$iris"
+                        "color": "$text"
                     },
                     "property": {
                         "color": "$text"
                     },
                     "punctuation": {
-                        "color": "$subtle"
+                        "color": "$text"
                     },
                     "punctuation.bracket": {
-                        "color": "$subtle"
+                        "color": "$text"
                     },
                     "punctuation.delimiter": {
-                        "color": "$subtle"
+                        "color": "$text"
                     },
                     "punctuation.list_marker": {
-                        "color": "$subtle",
+                        "color": "$text",
                         "font_weight": 700
                     },
                     "ion.special": {
-                        "color": "$pine"
+                        "color": "$text"
                     },
                     "string": {
                         "color": "$gold"
@@ -259,19 +259,19 @@
                         "color": "$gold"
                     },
                     "string.special": {
-                        "color": "$pine"
+                        "color": "$rose"
                     },
                     "string.special.symbol": {
-                        "color": "$pine"
+                        "color": "$rose"
                     },
                     "tag": {
-                        "color": "$iris"
+                        "color": "$foam"
                     },
                     "text.literal": {
                         "color": "$gold"
                     },
                     "title": {
-                        "color": "$love",
+                        "color": "$foam",
                         "font_weight": 700
                     },
                     "type": {
@@ -281,10 +281,10 @@
                         "color": "$text"
                     },
                     "variable.special": {
-                        "color": "$foam"
+                        "color": "$text"
                     },
                     "variant": {
-                        "color": "$rose"
+                        "color": "$text"
                     }
                 }
             }
