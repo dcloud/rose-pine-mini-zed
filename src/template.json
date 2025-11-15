@@ -1,11 +1,11 @@
 {
     "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
-    "name": "$name",
-    "author": "Kainoa Kanter <kainoa@t1c.dev>",
+    "name": "$name Minimal",
+    "author": "Daniel Cloud",
     "themes": [
         {
             "appearance": "$type",
-            "name": "$name",
+            "name": "$name Minimal",
             "style": {
                 "editor.foreground": "$text",
                 "editor.background": "$base",
@@ -171,11 +171,11 @@
                         "color": "$rose"
                     },
                     "comment": {
-                        "color": "$muted",
+                        "color": "$iris",
                         "font_style": "italic"
                     },
                     "comment.doc": {
-                        "color": "$subtle"
+                        "color": "$love"
                     },
                     "constant": {
                         "color": "$rose"
@@ -237,7 +237,7 @@
                         "color": "$text"
                     },
                     "punctuation.bracket": {
-                        "color": "$text"
+                        "color": "$muted"
                     },
                     "punctuation.delimiter": {
                         "color": "$text"

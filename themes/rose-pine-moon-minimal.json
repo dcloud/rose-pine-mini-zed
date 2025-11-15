@@ -1,11 +1,11 @@
 {
     "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
-    "name": "Rosé Pine Moon",
-    "author": "Kainoa Kanter <kainoa@t1c.dev>",
+    "name": "Rosé Pine Moon Minimal",
+    "author": "Daniel Cloud",
     "themes": [
         {
             "appearance": "dark",
-            "name": "Rosé Pine Moon",
+            "name": "Rosé Pine Moon Minimal",
             "style": {
                 "editor.foreground": "#e0def4",
                 "editor.background": "#232136",
@@ -171,11 +171,11 @@
                         "color": "#ea9a97"
                     },
                     "comment": {
-                        "color": "#6e6a86",
+                        "color": "#c4a7e7",
                         "font_style": "italic"
                     },
                     "comment.doc": {
-                        "color": "#908caa"
+                        "color": "#eb6f92"
                     },
                     "constant": {
                         "color": "#ea9a97"
@@ -237,7 +237,7 @@
                         "color": "#e0def4"
                     },
                     "punctuation.bracket": {
-                        "color": "#e0def4"
+                        "color": "#6e6a86"
                     },
                     "punctuation.delimiter": {
                         "color": "#e0def4"

@@ -15,13 +15,15 @@ The theme uses the `@rose-pine/build` package to generate theme files from a tem
 To rebuild all theme variants from the template:
 
 ```sh
-npx @rose-pine/build -t ./src/template.json -f hex -o themes/
+./build.sh
 ```
 
-This command:
-- Takes the template from `src/template.json`
-- Outputs hex color values (`-f hex`)
-- Generates theme files in the `themes/` directory
+This script:
+- Runs the `@rose-pine/build` tool on `src/template.json`
+- Outputs hex color values to the `themes/` directory
+- Automatically renames files to include 'minimal' suffix
+
+**Note**: The build script is necessary because the Rose Pine build tool generates files with standard names (rose-pine.json, etc.), but we need them named with the 'minimal' suffix.
 
 ## Architecture
 
@@ -36,9 +38,9 @@ The theme uses a variable-based template system in `src/template.json`:
 ### Generated Files
 
 The `themes/` directory contains three generated JSON files:
-- `rose-pine.json` - Main dark variant
-- `rose-pine-moon.json` - Moon dark variant
-- `rose-pine-dawn.json` - Dawn light variant
+- `rose-pine-minimal.json` - Main dark variant
+- `rose-pine-moon-minimal.json` - Moon dark variant
+- `rose-pine-dawn-minimal.json` - Dawn light variant
 
 **IMPORTANT**: Never manually edit files in `themes/`. Always modify `src/template.json` and rebuild.
 
