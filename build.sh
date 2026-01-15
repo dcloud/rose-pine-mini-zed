@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Build themes from template
-npx @rose-pine/build -t ./src/template.json -f hex -o themes/
+bloom build --output themes src/template.json
 
 # Rename generated files to include 'minimal'
 cd themes
