@@ -4,7 +4,9 @@
       "Bash(npx @rose-pine/build:*)",
       "Bash(cat:*)",
       "Bash(chmod:*)",
-      "Bash(/Users/dcloud/code/rose-pine-mini-zed/build.sh)"
+      "Bash(/Users/dcloud/code/rose-pine-mini-zed/build.sh)",
+      "Bash(curl:*)",
+      "Bash(grep:*)"
     ],
     "deny": [],
     "ask": []
